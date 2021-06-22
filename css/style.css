@@ -1,9 +1,12 @@
 body{
-    text-align: center;
-    color: green;
-    height: 95vh;
-    width: 95vh;
+    width: 95;
+    length: 195vh;
     display:flex;
     justify-content: center;
     align-items: center;
+    flex-direction:column;
+    font-size: 20px;
+}
+#snake{
+     border: 5px solid green;
 }
